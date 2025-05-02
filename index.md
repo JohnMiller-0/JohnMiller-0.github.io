@@ -1,1 +1,1 @@
-<h2>John Miller's CS 499 Github Pages Homepage</h2>
+<h2>I LOVE YOU CASEY BUTLER</h2>
