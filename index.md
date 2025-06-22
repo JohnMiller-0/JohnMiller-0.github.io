@@ -14,7 +14,18 @@
 
 - Live deployment of the enhanced application with full functionality.
 
-## Professional Self-Assessment
+## Index
+### 1. [Professional-Self-Assessment](#professional-self-assessment)
+### 2. [Video Code Review](#video-code-review)
+### 3. [Narratives](#narratives)
+- [Artifact Justification](#artifact-justification)
+- [Software Design and Engineering](#software-design-and-engineering)
+- [Data Structures and Algorithms](#data-structures-and-algorithms)
+- [Databases](#databases)
+- [Frontend](#frontend)
+- [References](#references)
+
+## Professional Self Assessment
 
 &nbsp;&nbsp;&nbsp;&nbsp;Designing and building my Capstone project and ePortfolio has allowed me an opportunity to reflect on my growth throughout my time at Southern New Hampshire University (SNHU). I began the Computer Science program in 2023 with no prior coding experience. Since then, I’ve explored a wide range of subjects—from writing my first “Hello, World!” to deploying full-stack applications. I still catch myself feeling like an impostor when I hit tough technical challenges, but this reflection process has helped me see just how far I’ve come and how many real proficiencies I’ve developed.
 
@@ -46,7 +57,7 @@ This is a [video code review](https://www.youtube.com/watch?v=MBhkFcvRc2k) of th
 
 
 
-### Software and Design
+### Software Design and Engineering
   
 &nbsp;&nbsp;&nbsp;&nbsp;I have chosen to develop a full-stack application because it allows me to showcase all of the course competencies within a single, cohesive project. I can illustrate software design elements by creating a clean Model-View-Controller architecture. By demonstrating a clear Separation of Concerns (SoC), I reveal my ability to deconstruct business needs and technical problems into modular components and solutions. This approach is considered an industry best practice, as it promotes modularity, maintainability, and scalability in software systems (GeeksforGeeks, 2024). I have also implemented secure authentication and authorization strategies, including the use of the bcrypt library to generate strong password hashes and salts, as well as express-jwt for managing JSON Web Token (JWT)-based authentication. These tools help ensure that user data is protected and that only authorized users can access sensitive endpoints within the application.
 
@@ -93,7 +104,7 @@ This is a [video code review](https://www.youtube.com/watch?v=MBhkFcvRc2k) of th
 
 
 
-### Front-End
+### Frontend
 
 &nbsp;&nbsp;&nbsp;&nbsp;The front end of FitGlitch was built to do more than look slick; it actively supports collaboration and clear, purpose-driven communication across the project team and future stakeholders. Angular’s component model allows teammates to plug new features into the dashboard with minimal friction, enabling designers, trainers, and even non-technical collaborators to see their changes reflected quickly and provide informed feedback. The UI itself is intentionally “self-documenting”: cards, icons, and context-aware tooltips make the daily stats, meals, workouts, and weight-tracking sections easy for diverse audiences (from classmates to potential investors) to grasp at a glance, enabling faster decision-making about product direction.
 
