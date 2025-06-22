@@ -1,4 +1,12 @@
-# John Miller's CS-499 CS Capstone GitHub Pages Homepage  
+# John Miller's CS-499 CS Capstone GitHub Pages Homepage
+
+## Links
+
+Artifact: [WeightTracker (Android Application)](https://github.com/JohnMiller-0/CS-360)
+
+Enhancements: [FitGlitch (MEAN-Stack Web Application)](https://github.com/JohnMiller-0/FitGlitch)
+
+Launched Capstone Project: [FitGlitch (Hosted by Vercel & Render)](fit-glitch.vercel.app)
   
 ## Video Code Review  
   
