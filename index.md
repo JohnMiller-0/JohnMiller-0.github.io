@@ -2,12 +2,19 @@
 
 ## Links
 
-Artifact: [WeightTracker (Android Application)](https://github.com/JohnMiller-0/CS-360)
+- Artifact: [WeightTracker (Android Application)](https://github.com/JohnMiller-0/CS-360)
 
-Enhancements: [FitGlitch (MEAN-Stack Web Application)](https://github.com/JohnMiller-0/FitGlitch)
+Full-stack web application built using MongoDB, Express, Angular, and Node.js. Represents the enhanced version of the artifact.
 
-Launched Capstone Project: <a href="https://fit-glitch.vercel.app" target="_blank" rel="noopener noreferrer">Visit FitGlitch</a>
-  
+- Enhancements: [FitGlitch (MEAN-Stack Web Application)](https://github.com/JohnMiller-0/FitGlitch)
+
+Full-stack web application built using MongoDB, Express, Angular, and Node.js. Represents the enhanced version of the artifact.
+
+- Launched Capstone Project: <a href="https://fit-glitch.vercel.app" target="_blank" rel="noopener noreferrer">Visit FitGlitch</a>
+
+Live deployment of the enhanced application with full functionality.
+
+
 ## Video Code Review  
   
 This is a video code review of the CS-360 WeightTracker Android application. The review highlights areas where the code succeeds and falls short, and then outlines my enhancement plans aligned with the course proficiencies and outcomes.  
