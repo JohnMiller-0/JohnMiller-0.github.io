@@ -2,17 +2,17 @@
 
 ## Links
 
-- Artifact: [WeightTracker (Android Application)](https://github.com/JohnMiller-0/CS-360)
+1. Artifact: [WeightTracker (Android Application)](https://github.com/JohnMiller-0/CS-360)
 
-Full-stack web application built using MongoDB, Express, Angular, and Node.js. Represents the enhanced version of the artifact.
+- Full-stack web application built using MongoDB, Express, Angular, and Node.js. Represents the enhanced version of the artifact.
 
-- Enhancements: [FitGlitch (MEAN-Stack Web Application)](https://github.com/JohnMiller-0/FitGlitch)
+2. Enhancements: [FitGlitch (MEAN-Stack Web Application)](https://github.com/JohnMiller-0/FitGlitch)
 
-Full-stack web application built using MongoDB, Express, Angular, and Node.js. Represents the enhanced version of the artifact.
+- Full-stack web application built using MongoDB, Express, Angular, and Node.js. Represents the enhanced version of the artifact.
 
-- Launched Capstone Project: <a href="https://fit-glitch.vercel.app" target="_blank" rel="noopener noreferrer">Visit FitGlitch</a>
+3. Launched Capstone Project: <a href="https://fit-glitch.vercel.app" target="_blank" rel="noopener noreferrer">Visit FitGlitch</a>
 
-Live deployment of the enhanced application with full functionality.
+- Live deployment of the enhanced application with full functionality.
 
 
 ## Video Code Review  
