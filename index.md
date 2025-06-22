@@ -6,7 +6,7 @@ Artifact: [WeightTracker (Android Application)](https://github.com/JohnMiller-0/
 
 Enhancements: [FitGlitch (MEAN-Stack Web Application)](https://github.com/JohnMiller-0/FitGlitch)
 
-Launched Capstone Project: <a href="fit-glitch.vercel.app" target="_blank" rel="noopener noreferrer">Visit FitGlitch</a>
+Launched Capstone Project: <a href="https://fit-glitch.vercel.app" target="_blank" rel="noopener noreferrer">Visit FitGlitch</a>
   
 ## Video Code Review  
   
