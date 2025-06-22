@@ -4,7 +4,7 @@
 
 ### Artifact: [WeightTracker (Android Application)](https://github.com/JohnMiller-0/CS-360)
  
- - Full-stack web application built using MongoDB, Express, Angular, and Node.js. Represents the enhanced version of the artifact.
+ - Android application that interfaces with a local SQLite DB for users to create Weight entries.
 
 ### Enhancements: [FitGlitch (MEAN-Stack Web Application)](https://github.com/JohnMiller-0/FitGlitch)
 
