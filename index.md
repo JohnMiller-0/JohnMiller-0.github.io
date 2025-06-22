@@ -64,33 +64,37 @@ This is a video code review of the CS-360 WeightTracker Android application. The
 
 &nbsp;&nbsp;&nbsp;&nbsp;Integrating with a cloud instance demonstrates the ability to utilize well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and achieve industry-specific goals. Cloud computing is a well-established field that is currently underserved (Flexera, 2025). Thus, this demonstration is career-relevant.
 
-&nbsp;&nbsp;&nbsp;&nbsp;A security mindset is demonstrated by ensuring that all data is properly scoped to the userId field. The userId is parsed from the encrypted JWT via middleware, so it’s never exposed to the user or passed through the frontend. It’s used alongside the token’s signature for authorization, meaning users can only access or modify entries in the weight, workout, and meal collections that belong to them. This setup helps secure the database and prevents cross-user data leaks, which is crucial in any multi-user application handling personal information. Using a hashing service, such as bcrypt, to hash the user’s password before submitting it to the database is also a best practice, which FitGlitch successfully implements (Percona, 2023).   
+&nbsp;&nbsp;&nbsp;&nbsp;A security mindset is demonstrated by ensuring that all data is properly scoped to the userId field. The userId is parsed from the encrypted JWT via middleware, so it’s never exposed to the user or passed through the frontend. It’s used alongside the token’s signature for authorization, meaning users can only access or modify entries in the weight, workout, and meal collections that belong to them. This setup helps secure the database and prevents cross-user data leaks, which is crucial in any multi-user application handling personal information. Using a hashing service, such as bcrypt, to hash the user’s password before submitting it to the database is also a best practice, which FitGlitch successfully implements (Percona, 2023).
 
+### Front-End
 
+&nbsp;&nbsp;&nbsp;&nbsp; The front end of FitGlitch was designed with usability, clarity, and modularity in mind. Built using Angular, the dashboard serves as the core of the user experience, organizing daily fitness data into distinct sections: summary stats, meals, workouts, and weight tracking. Each section is built as a reusable component and interacts with the backend via RESTful API calls. To streamline and secure these requests, I implemented an HTTP interceptor that automatically appends the JWT token to outbound requests, ensuring authenticated access without cluttering each service call with repetitive logic. The UI utilizes Bootstrap and custom CSS to provide a clean, responsive layout that adapts seamlessly to various screen sizes. Combined with reactive forms and route protection, the design prioritizes both functionality and user trust.
+
+&nbsp;&nbsp;&nbsp;&nbsp; Including the front end in my capstone highlights several core competencies. From a software design and engineering standpoint, the modular architecture and use of Angular’s features, such as routing, services, and interceptors, demonstrate a clean separation of concerns and maintainability. Through dynamic rendering, form logic, and error handling, I applied data structures and algorithms to manage user input and application state effectively. Integration with the backend and MongoDB via secure, authenticated requests showcases my ability to interact with databases through a full-stack lens. The frontend not only supports the app’s core functionality but also provides a robust and secure interface suitable for production use.
 
 
 
 ### References
 
-Aram, C. (2024, February 25). MongoDB aggregation pipelines vs traditional queries with find. Medium. https://zerofilter.medium.com/mongodb-aggregation-pipelines-vs-&nbsp;&nbsp;&nbsp;&nbsp;traditional-queries-with-find-c95f372257aa
+- Aram, C. (2024, February 25). MongoDB aggregation pipelines vs traditional queries with find. Medium. https://zerofilter.medium.com/mongodb-aggregation-pipelines-vs-traditional-queries-with-find-c95f372257aa
 
-Bennett, J. (2023, December 15). Are MERN and MEAN stack still in demand for web development in 2024? Medium. https://medium.com/@jessicajournal/are-mern-and-mean-stack-&nbsp;&nbsp;&nbsp;&nbsp;still-in-demand-for-web-development-in-2024-9c56a7314ad6
+- Bennett, J. (2023, December 15). Are MERN and MEAN stack still in demand for web development in 2024? Medium. https://medium.com/@jessicajournal/are-mern-and-mean-stack-still-in-demand-for-web-development-in-2024-9c56a7314ad6
 
-Conboy, S. (2023, July 9). When to use a Map instead of an Object in JavaScript. Medium. https://medium.com/@conboys111/when-to-use-a-map-instead-of-an-object-in-&nbsp;&nbsp;&nbsp;&nbsp;javascript-e396f1b27b19
+- Conboy, S. (2023, July 9). When to use a Map instead of an Object in JavaScript. Medium. https://medium.com/@conboys111/when-to-use-a-map-instead-of-an-object-in-javascript-e396f1b27b19
 
-Flexera. (2025, March 19). 2025 State of the Cloud report. Flexera. https://info.flexera.com/CM-REPORT-State-of-the-Cloud
+- Flexera. (2025, March 19). 2025 State of the Cloud report. Flexera. https://info.flexera.com/CM-REPORT-State-of-the-Cloud
 
-GeeksforGeeks. (2021, October 31). Documentation comments in JSDoc. https://www.geeksforgeeks.org/documentation-comments-in-jsdoc/
+- GeeksforGeeks. (2021, October 31). Documentation comments in JSDoc. https://www.geeksforgeeks.org/documentation-comments-in-jsdoc/
 
-GeeksforGeeks. (2023, June 8). Internal working of Map in JavaScript. https://www.geeksforgeeks.org/internal-working-of-map-in-javascript/
+- GeeksforGeeks. (2023, June 8). Internal working of Map in JavaScript. https://www.geeksforgeeks.org/internal-working-of-map-in-javascript/
 
-GeeksforGeeks. (2024, February 13). Separation of concerns (SoC). https://www.geeksforgeeks.org/separation-of-concerns-soc/
+- GeeksforGeeks. (2024, February 13). Separation of concerns (SoC). https://www.geeksforgeeks.org/separation-of-concerns-soc/
 
-Mongoose.js. (n.d.). Mongoose v8.0.3: Aggregation. https://mongoosejs.com/docs/api/aggregate.html
+- Mongoose.js. (n.d.). Mongoose v8.0.3: Aggregation. https://mongoosejs.com/docs/api/aggregate.html
 
-New York State Office of Information Technology Services. (2024, May 9). Secure System Development Life Cycle Standard (NYS-S13-001). https://its.ny.gov/secure-system-&nbsp;&nbsp;&nbsp;&nbsp;development-life-cycle-standard
+- New York State Office of Information Technology Services. (2024, May 9). Secure System Development Life Cycle Standard (NYS-S13-001). https://its.ny.gov/secure-system-development-life-cycle-standard
 
-Percona. (2023, November 9). Securing your MongoDB database: Essential best practices. https://www.percona.com/blog/securing-your-mongodb-database-essential-best-&nbsp;&nbsp;&nbsp;&nbsp;practices/
+- Percona. (2023, November 9). Securing your MongoDB database: Essential best practices. https://www.percona.com/blog/securing-your-mongodb-database-essential-best-practices/
 
 
 
