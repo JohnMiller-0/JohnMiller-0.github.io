@@ -1,5 +1,5 @@
 # John Miller's CS-499 CS Capstone
-Welcome to my CS-499 Capstone project page. Here you’ll find a video review of my enhanced artifact (FitGlitch), narratives explaining how it meets core competencies, and project documentation.
+Welcome to my CS-499 Capstone project page. Here you’ll find a video review of my artifact (WeightTracker), the enhancements (FitGlitch), narratives explaining how it meets core competencies, and project documentation.
 
 ## Links
 
