@@ -1,6 +1,8 @@
 # John Miller's CS-499 CS Capstone
 Welcome to my CS-499 Capstone project page. Here you’ll find a video review of my artifact (WeightTracker), the enhancements (FitGlitch), narratives explaining how it meets core competencies, and project documentation.
 
+FitGlitch is now a live-service with the database hosted on MongoDB Atlas, the backend/API on Render, and the client/frontend on Vercel. This was all accompished via the free tier provided at each of these cloud services.
+
 ## Links
 
 ### Artifact: [WeightTracker (Android Application)](https://github.com/JohnMiller-0/CS-360)
