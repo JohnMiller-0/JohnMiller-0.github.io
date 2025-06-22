@@ -1,4 +1,5 @@
-# John Miller's CS-499 CS Capstone GitHub Pages Homepage
+# John Miller's CS-499 CS Capstone
+Welcome to my CS-499 Capstone project page. Here you’ll find a video review of my enhanced artifact (FitGlitch), narratives explaining how it meets core competencies, and project documentation.
 
 ## Links
 
